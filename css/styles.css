@@ -3186,6 +3186,7 @@ textarea.form-control-lg {
   margin:auto;
   display:flex;
   justify-content: space-between;
+  text-align:left;
 }
 
 .collapsing {
@@ -10869,6 +10870,12 @@ section {
 
 /*************foofa*************/
 
+@font-face{
+  font-family: 'Noto';
+  src: local('Noto Serif KR'),
+     url(../assets/font/NotoSerifCJKkr-Regular.woff) format("woff");
+}
+
 img{
   width:100%;
 }
@@ -10889,7 +10896,6 @@ header > .text-foofa2{
   color: #555555;
   font-size: 0.8rem;
   letter-spacing: 0.2rem;
-
 }
 
 header > .container {
@@ -10906,7 +10912,7 @@ header > .container {
 #our-story{
   /* background-color: #f9f9f9; */
   background-color: #0d3032;
-  padding-bottom:1em;
+  padding:1em 0;
   text-align:center;
 }
 
@@ -10921,13 +10927,13 @@ header > .container {
 }
 
 .text-foofa2 {
-  font-family: "Noto Serif KR",serif;
+  font-family: Noto,"Noto Serif KR",serif;
   font-size: 0.8rem;
   color:#555;
 }
 
 .text-foofa3 {
-  font-family: "Noto Serif KR",serif;
+  font-family: Noto,"Noto Serif KR",serif;
   font-size: 0.95rem;
   color:#555;
 }
@@ -10935,6 +10941,7 @@ header > .container {
 .text-strong {
   font-weight: 600;
   text-align: center;
+  font-size: 1.2em;
 }
 
 .text-trajan{
@@ -10944,7 +10951,7 @@ header > .container {
 
 .text-foofa-copy{
   /*font-family: "MapoFlowerIsland",sans-serif;*/
-  font-family: "Noto Serif KR",serif;
+  font-family: Noto, "Noto Serif KR",serif;
   margin-bottom: 0.8rem;
   font-size:0.8rem;
 }
@@ -11083,7 +11090,7 @@ header > .container {
 }
 
 #transport{
-  padding-top:1em;
+  padding-top:2.5em;
   display:inline-block;
 }
 
@@ -11100,7 +11107,7 @@ header > .container {
 
 #account{
   background-color: #f9f9f9;
-  padding-bottom:1em;
+  padding:1em 0;
   text-align:center;
   margin: auto;
 }
